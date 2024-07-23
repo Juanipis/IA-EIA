@@ -1,0 +1,31 @@
+{
+  "image": "ghcr.io/devcontainers/templates/anaconda:1.2.0",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"
+    },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers-contrib/features/pipenv:2": {},
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+      "packages": "graphviz"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "charliermarsh.ruff",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "littlefoxteam.vscode-python-test-adapter",
+        "christian-kohler.path-intellisense",
+        "SonarSource.sonarlint-vscode"
+      ],
+      "settings": {
+        "sonarlint.ls.javaHome": "/usr/local/sdkman/candidates/java/17.0.10-ms"
+      }
+    }
+  },
+  "remoteUser": "root"
+}
