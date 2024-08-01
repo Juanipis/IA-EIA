@@ -1,9 +1,15 @@
 {
   "cSpell.words": [
+    "Geocoder",
+    "geocoders",
+    "geopandas",
+    "geopy",
     "ipynb",
     "isna",
     "missingno",
+    "Nominatim",
     "Numpy",
+    "osmnx",
     "pyjanitor",
     "pyreadr",
     "riskfactors",
